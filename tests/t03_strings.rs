@@ -26,7 +26,6 @@ bar";
 
 #[test]
 fn test_string() {
-
     // ---------------------------
     // 在堆上声明的字符串String, 它能动态的去增长或者缩减
     let x: &'static str = "hello";
@@ -35,7 +34,6 @@ fn test_string() {
     println!("{}", y);
     y.push_str(", world");
     println!("{}", y);
-
 
     // ---------------------------
     let s = "Hello world".to_string();
